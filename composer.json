@@ -1,0 +1,26 @@
+{
+    "name": "utichawa/core-package",
+    "description": "Testing core package for later cms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yassine Mechiche",
+            "email": "mechiche.yassine@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Utichawa\\CorePackage\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Utichawa\\CorePackage\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}

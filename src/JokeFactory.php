@@ -7,12 +7,12 @@ class JokeFactory
     protected $jokes = [
         '3 Kitties',
         'One girl',
-        'testing'
+        'testing',
     ];
 
     public function __construct(array $jokes = null)
     {
-        if($jokes){
+        if ($jokes) {
             $this->jokes = $jokes;
         }
     }

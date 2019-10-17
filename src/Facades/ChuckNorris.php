@@ -1,6 +1,6 @@
 <?php
 
-namespace Utichawa\CorePackage;
+namespace Utichawa\CorePackage\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

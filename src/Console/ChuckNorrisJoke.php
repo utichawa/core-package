@@ -7,9 +7,9 @@ use Utichawa\CorePackage\Facades\ChuckNorris;
 
 class ChuckNorrisJoke extends Command
 {
-    protected $signature = "chuck-norris";
+    protected $signature = 'chuck-norris';
 
-    protected $description = "Output a funny chuck norris jole.";
+    protected $description = 'Output a funny chuck norris jole.';
 
     public function handle()
     {

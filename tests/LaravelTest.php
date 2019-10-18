@@ -2,25 +2,25 @@
 
 namespace Utichawa\CorePackage\Tests;
 
-use Illuminate\Support\Facades\Artisan;
 use Orchestra\Testbench\TestCase;
-use Utichawa\CorePackage\ChuckNorrisJokesServiceProvider;
-use Utichawa\CorePackage\Console\ChuckNorrisJoke;
+use Illuminate\Support\Facades\Artisan;
 use Utichawa\CorePackage\Facades\ChuckNorris;
+use Utichawa\CorePackage\Console\ChuckNorrisJoke;
+use Utichawa\CorePackage\ChuckNorrisJokesServiceProvider;
 
 class LaravelTest extends TestCase
 {
     protected function getPackageProviders($app)
     {
         return [
-            ChuckNorrisJokesServiceProvider::class
+            ChuckNorrisJokesServiceProvider::class,
         ];
     }
 
     public function getPackageAliases($app)
     {
         return [
-            'ChuckNorris' => ChuckNorrisJoke::class
+            'ChuckNorris' => ChuckNorrisJoke::class,
         ];
     }
 
@@ -37,7 +37,7 @@ class LaravelTest extends TestCase
 
         $output = Artisan::output();
 
-        $this->assertSame('some joke' . PHP_EOL, $output);
+        $this->assertSame('some joke'.PHP_EOL, $output);
     }
 
     /** @test */

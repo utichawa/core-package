@@ -4,7 +4,8 @@
     <list default="true" id="0b431d87-4fb5-4102-8101-cddce53dc008" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.phpunit.result.cache" afterPath="$PROJECT_DIR$/.phpunit.result.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChuckNorrisJokesServiceProvider.php" afterPath="$PROJECT_DIR$/src/ChuckNorrisJokesServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Http/Controllers/ChuckNorrisController.php" afterPath="$PROJECT_DIR$/src/Http/Controllers/ChuckNorrisController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/LaravelTest.php" afterPath="$PROJECT_DIR$/tests/LaravelTest.php" />
     </list>
     <ignored path="package-php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LaravelTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LaravelTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/LaravelTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="95">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="e#46#85#0#PHP" expanded="true" />
               </folding>
@@ -50,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChuckNorrisJokesServiceProvider.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChuckNorrisJokesServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChuckNorrisJokesServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -65,8 +66,8 @@
       <file leaf-file-name="ChuckNorrisController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Http/Controllers/ChuckNorrisController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -94,9 +95,9 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Facades/ChuckNorris.php" />
         <option value="$PROJECT_DIR$/src/Console/ChuckNorrisJoke.php" />
-        <option value="$PROJECT_DIR$/tests/LaravelTest.php" />
-        <option value="$PROJECT_DIR$/src/Http/Controllers/ChuckNorrisController.php" />
         <option value="$PROJECT_DIR$/src/ChuckNorrisJokesServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/Http/Controllers/ChuckNorrisController.php" />
+        <option value="$PROJECT_DIR$/tests/LaravelTest.php" />
       </list>
     </option>
   </component>
@@ -301,12 +302,12 @@
       <workItem from="1569239854413" duration="10886000" />
       <workItem from="1569584766531" duration="599000" />
       <workItem from="1569925401395" duration="1534000" />
-      <workItem from="1571137895484" duration="23282000" />
+      <workItem from="1571137895484" duration="23458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36301000" />
+    <option name="totallyTimeSpent" value="36477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -509,14 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Facades/ChuckNorris.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/JokeFactoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -527,20 +520,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/LaravelTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Facades/ChuckNorris.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="e#46#85#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Http/Controllers/ChuckNorrisController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -551,6 +542,16 @@
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#40#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/LaravelTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#46#85#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

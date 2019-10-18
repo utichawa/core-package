@@ -2,8 +2,10 @@
 
 namespace Utichawa\CorePackage;
 
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Utichawa\CorePackage\Console\ChuckNorrisJoke;
+use Utichawa\CorePackage\Http\Controllers\ChuckNorrisController;
 
 class ChuckNorrisJokesServiceProvider extends ServiceProvider
 {
@@ -14,6 +16,8 @@ class ChuckNorrisJokesServiceProvider extends ServiceProvider
                 ChuckNorrisJoke::class
             ]);
         }
+        
+        Route::get('chuck-norris',ChuckNorrisController::class);
     }
 
     public function register()
